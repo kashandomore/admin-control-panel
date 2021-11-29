@@ -6,29 +6,21 @@
 }
 
 body {
-  background-image: url("/assets/img/background img.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 100vh;
+  background-color: lightgray;
 }
 
 nav {
-  background-color: #fdf2f2;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.9);
-          box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.9);
+  background-color: black;
 }
 
-nav img {
-  width: 130px;
-  height: 130px;
-  border-radius: 100%;
+nav h1 {
   padding: 20px;
+  font-size: 50px;
+  color: white;
 }
 
 .d1 {
-  background-color: rgba(108, 74, 74, 0.6);
+  background-color: #bababa;
   background-blend-mode: darken;
   width: 330px;
   height: 100%;
@@ -36,39 +28,23 @@ nav img {
   display: none;
 }
 
-.d2 {
-  font-size: 80px;
-  padding: 20px;
+.d1 ul {
+  padding: 40px;
+  list-style: none;
 }
 
-.d2 .i1:hover {
+.d1 ul li {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.d1 ul li:hover {
+  background-color: white;
+}
+
+.d1 ul li a {
+  text-decoration: none;
   color: black;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.d3:hover {
-  background-color: black;
-  border-radius: 10px;
-}
-
-.d4:hover {
-  background-color: black;
-  border-radius: 10px;
-}
-
-.d5:hover {
-  background-color: black;
-  border-radius: 10px;
-}
-
-.d6:hover {
-  background-color: black;
-  border-radius: 10px;
-}
-
-.d7:hover {
-  background-color: black;
-  border-radius: 10px;
+  font-size: 35px;
 }
 /*# sourceMappingURL=style.css.map */
